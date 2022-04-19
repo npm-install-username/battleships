@@ -1,0 +1,24 @@
+{
+  "name": "battleships",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm-install-username/battleships.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npm-install-username/battleships/issues"
+  },
+  "homepage": "https://github.com/npm-install-username/battleships#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "jest": "^27.5.1"
+  }
+}
