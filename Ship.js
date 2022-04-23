@@ -25,7 +25,7 @@ const ship = (l) =>{
         shipArray[pos] = 'h'
         const sunk = isSunk(shipArray)
         if(sunk){
-            return "sunk"
+            return sunk
         }
         return shipArray
     }
