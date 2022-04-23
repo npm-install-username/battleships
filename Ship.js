@@ -1,5 +1,5 @@
 const ship = (l) =>{
-    const getLength = () =>l;
+    // const getLength = () =>l;
     // const isHit = () => hasBeenHit;
     // const hasBeenSunk = () => sunk;
     const createShip = (l) =>{
@@ -12,8 +12,8 @@ const ship = (l) =>{
     let shipArray = createShip(l);
     
     const hit =(num) =>{
-        // const pos = num -1
-        // shipArray[pos] = 'h'
+        const pos = num -1
+        shipArray[pos] = 'h'
         return shipArray
     }
     return {shipArray, hit}
